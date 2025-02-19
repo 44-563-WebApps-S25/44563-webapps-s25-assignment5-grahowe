@@ -13,6 +13,26 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expanded-md navbar-light bg-light">
+    <a class="navbar-brand" href="pets.html">Pet Options</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="advanced.html">Advanced</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
   <h1>Pick a pet by Owen Graham</h1>
 
   <div class="container">
@@ -111,6 +131,16 @@
           <button type="button" class="btn btn-danger">M</button>
         </div>
       </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        Select a Page
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="basic.html">Basic Page</a></li>
+        <li><a class="dropdown-item" href="advanced.html">Advanced Page</a></li>
+      </ul>
     </div>
     <p>
       As we can see here, the pet names are the first to change as the page is zoomed in. The col-md 
